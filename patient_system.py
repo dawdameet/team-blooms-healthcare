@@ -15,7 +15,7 @@ def calculate_bmi(weight_kg, height_m):
     
 # Bug 3: Wrong operator - should be 'or' not 'and'
 def check_emergency(heart_rate, blood_pressure):
-    if heart_rate > 120 and blood_pressure > 180:  # Bug: should be 'or' not 'and'
+    if heart_rate > 120 or blood_pressure > 180:  # Bug: should be 'or' not 'and'
         return "Emergency"
     else:
         return "Normal"
