@@ -28,7 +28,7 @@ def get_age_group(age):
         return "Teen"
     elif age >= 20 and age <= 64:
         return "Adult"
-    elif age >= 65:  # Bug: should be age > 64 to avoid gap
+    elif age > 64:  # Bug: should be age > 64 to avoid gap
         return "Senior"
 
 # Test the functions
