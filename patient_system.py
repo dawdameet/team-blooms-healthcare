@@ -10,6 +10,7 @@ def check_fever(temperature):
 # Bug 2: Missing return statement
 def calculate_bmi(weight_kg, height_m):
     bmi = weight_kg / (height_m ** 2)
+    return bmi
     # Bug: missing return statement
     
 # Bug 3: Wrong operator - should be 'or' not 'and'
